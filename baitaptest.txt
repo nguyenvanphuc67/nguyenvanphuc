@@ -1,0 +1,9 @@
+git init khoi tao du an
+git add . add file chuan bi commit
+git commit -m "message" dong goi file
+git remote add origin https://github.com/nguyenvanphuc67/nguyenvanphuc.git
+git push origin master
+
+git status : xem trang thai file
+git log : xem commit
+...
