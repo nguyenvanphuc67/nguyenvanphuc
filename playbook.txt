@@ -1,0 +1,8 @@
+- name: baitap
+  host: all
+  gather_fact: no
+
+task:
+	- name: dat ip cho loopback
+	  ios_l3_interface:
+	  ipv4: 10.0.9.1/24
